@@ -1,2 +1,0 @@
-# kilitripsite
-for my website
