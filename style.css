@@ -1,14 +1,20 @@
 body{
-    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: rgba(168,209,248,1);
     text-align: center;
-    background-image: url("/images/luckystar.jpg");
+    background-image: url(luckystar.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .mainbit {
-    background-color: black;
+    background-color: rgba(42,115,246,0.95);
+    border: 2px solid lightgreen;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    font-size: large;
 }
