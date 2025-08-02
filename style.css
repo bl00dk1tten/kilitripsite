@@ -30,23 +30,17 @@ body{
 }
 
 .teto {
-    animation: tetoshake 5s infinite;
+    animation: tetoshake 2s infinite ease-out;
 }
 
 @keyframes tetoshake {
     0%  {
-        transform: skew(0deg) translateX(0px);
-    }
-    25%  {
-        transform: skew(5deg) translateX(-10px);
+        transform: skew(-2deg) translateX(3px);
     }
     50%  {
-        transform: skew(0deg) translateX(0px);
-    }
-    75%  {
-        transform: skew(-5deg) translateX(10px);
+        transform: skew(2deg) translateX(-3px);
     }
     100%  {
-        transform: skew(0deg) translateX(0px);
+        transform: skew(-2deg) translateX(3px);
     }
 }
