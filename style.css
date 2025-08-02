@@ -29,6 +29,19 @@ body{
     padding: 10px;
 }
 
+.blinkies {
+    display: flex;
+    justify-content: center;
+}
+
+.blinkies1 {
+    margin-right: auto;
+}
+
+.blinkies2 {
+    margin-left: auto;
+}
+
 .teto {
     animation: tetoshake 2s infinite ease-out;
 }
