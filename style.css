@@ -27,6 +27,11 @@ body{
 .socials {
     border-top: 2px solid lightblue;
     padding: 10px;
+    word-spacing: 160px;
+}
+
+a {
+    color: lime;
 }
 
 .blinkies {
